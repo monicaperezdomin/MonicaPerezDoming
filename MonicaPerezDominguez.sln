@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Application", "01 Application", "{3239186B-DE61-460B-84B5-D86340F881DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Domain", "02 Domain", "{46D238DE-76A0-48E3-8951-F97DF1F9F546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "WebApplication1\Domain.csproj", "{C081C0C4-CAFD-4E12-BA03-626A75012B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient", "WebServiceClient\WebServiceClient.csproj", "{6F9F49DC-8AC7-4655-AA15-46FD00C6C813}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5} = {88BF84E1-F675-4025-B84D-2D4BDD6A19D5}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 DistributedS", "03 DistributedS", "{8561F8E4-6436-4B0F-8D10-1B2DD2903F33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "O4 Infraestruct", "O4 Infraestruct", "{A6B8B560-16A2-4C27-A277-767C127515A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPruebas", "UnitTestPruebas\UnitTestPruebas.csproj", "{6C087650-3312-4694-B294-C6A4C923A344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceWebSOAP", "ServiceWebSOAP\ServiceWebSOAP.csproj", "{88BF84E1-F675-4025-B84D-2D4BDD6A19D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonicaAplication", "Applicatio\MonicaAplication.csproj", "{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{556BA5DE-356E-41F9-843A-6045609791A6}"
+	ProjectSection(SolutionItems) = preProject
+		RebeldFile.txt = RebeldFile.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuting", "CrossCuting", "{A5E0CFC7-D3CE-4061-8129-A315E95219EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{974EBC84-E0EF-4D4F-937A-38940515C213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonicaInfraestructure", "MonicaInfraestructure\MonicaInfraestructure.csproj", "{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C081C0C4-CAFD-4E12-BA03-626A75012B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C081C0C4-CAFD-4E12-BA03-626A75012B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C081C0C4-CAFD-4E12-BA03-626A75012B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C081C0C4-CAFD-4E12-BA03-626A75012B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9F49DC-8AC7-4655-AA15-46FD00C6C813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9F49DC-8AC7-4655-AA15-46FD00C6C813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9F49DC-8AC7-4655-AA15-46FD00C6C813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9F49DC-8AC7-4655-AA15-46FD00C6C813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C087650-3312-4694-B294-C6A4C923A344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C087650-3312-4694-B294-C6A4C923A344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C087650-3312-4694-B294-C6A4C923A344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C087650-3312-4694-B294-C6A4C923A344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C081C0C4-CAFD-4E12-BA03-626A75012B0E} = {46D238DE-76A0-48E3-8951-F97DF1F9F546}
+		{9C7360F7-1AB8-4E48-BD09-2A904C19AAAE} = {974EBC84-E0EF-4D4F-937A-38940515C213}
+		{88BF84E1-F675-4025-B84D-2D4BDD6A19D5} = {8561F8E4-6436-4B0F-8D10-1B2DD2903F33}
+		{32FAFB92-60C3-49AF-BD22-F3A9B4AAAE4B} = {3239186B-DE61-460B-84B5-D86340F881DD}
+		{A5E0CFC7-D3CE-4061-8129-A315E95219EA} = {A6B8B560-16A2-4C27-A277-767C127515A2}
+		{974EBC84-E0EF-4D4F-937A-38940515C213} = {A6B8B560-16A2-4C27-A277-767C127515A2}
+		{3AA42CE9-4CA8-4BED-BDDB-942A33DBEBB2} = {A5E0CFC7-D3CE-4061-8129-A315E95219EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E39865DF-B7FA-46B5-B06A-09C700471AE7}
+	EndGlobalSection
+EndGlobal
